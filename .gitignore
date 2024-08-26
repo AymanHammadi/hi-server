@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ignore node_modules directory
 node_modules/
 
@@ -21,3 +22,28 @@ yarn.lock
 
 # Ignore defult editor configuration files
 config/
+=======
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build artifacts
+build/
+dist/
+
+# Ignore log files
+*.log
+
+# Ignore environment variables file
+.env
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore dependency lock files
+package-lock.json
+yarn.lock
+
+# Ignore defult editor configuration files
+config/
+>>>>>>> 1b2e7404c34694fbed57888889aef8133412f350

@@ -6,6 +6,13 @@ connectDB();
 
 const app = express();
 
+// Define Routes
+app.use('/api/auth', require('./routes/auth'));
+app.use('/api/posts', require('./routes/posts'));
+app.use('/api/profile', require('./routes/profile'));
+app.use('/api/users', require('./routes/users'));
+
+
 app.get('/', (req, res) => {
   res.send('Server is up and running');
 });

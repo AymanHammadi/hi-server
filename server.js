@@ -9,7 +9,7 @@ app.use(express.json());
 
 // Define Routes
 app.use("/api/posts", require("./routes/posts"));
-app.use("/api/profile", require("./routes/profile"));
+app.use("/api/profile", require("./routes/profiles"));
 app.use("/api/users", require("./routes/users"));
 
 app.get("/", (req, res) => {
